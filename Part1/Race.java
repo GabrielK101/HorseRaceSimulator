@@ -91,9 +91,23 @@ public class Race
             }
             
             //if any of the three horses has won the race is finished
-            if ( raceWonBy(lane1Horse) || raceWonBy(lane2Horse) || raceWonBy(lane3Horse) )
+            if ( raceWonBy(lane1Horse))
             {
+                System.out.println("And the winner is " + lane1Horse.getName()); 
                 finished = true;
+                lane1Horse.setConfidence(lane1Horse.getConfidence()+0.1);
+            }
+            else if ( raceWonBy(lane2Horse))
+            {
+                System.out.println("And the winner is " + lane2Horse.getName()); 
+                finished = true;
+                lane2Horse.setConfidence(lane2Horse.getConfidence()+0.1);
+            }
+            else if ( raceWonBy(lane3Horse))
+            {
+                System.out.println("And the winner is " + lane3Horse.getName()); 
+                finished = true;
+                lane3Horse.setConfidence(lane3Horse.getConfidence()+0.1);
             }
            
             //wait for 100 milliseconds
