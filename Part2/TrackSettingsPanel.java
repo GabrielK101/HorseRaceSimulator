@@ -154,7 +154,7 @@ public class TrackSettingsPanel extends JPanel {
     private void refreshTrackPanel() {
         trackPanel.remove(horse);
         trackPanel.remove(track);
-        horse.setImage("images/" + horses[currentHorseIndex] + ".png");
+        horse.setImage("Part2/images/" + horses[currentHorseIndex] + ".png");
         trackPanel.add(horse, BorderLayout.NORTH);
         trackPanel.add(track, BorderLayout.SOUTH);
         trackPanel.revalidate();

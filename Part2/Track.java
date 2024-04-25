@@ -94,7 +94,7 @@ public class Track extends JPanel {
         for (Component component : components) {
             if (component instanceof JLabel) {
                 Icon icon = ((JLabel) component).getIcon();
-                if (icon != null && icon.toString().equals("images/first.png")) {
+                if (icon != null && icon.toString().equals("Part2/images/first.png")) {
                     remove(component);
                     revalidate(); // Ensure the panel is laid out again after component removal
                     repaint(); // Repaint the panel to reflect the changes
@@ -152,13 +152,13 @@ public class Track extends JPanel {
             if (Math.random() < fallProbability) {
                 horseComponent.fall();
                 String breed = horseComponent.getBreed();
-                horseComponent.setImage("images/" + breed + "fall.png");
+                horseComponent.setImage("Part2/images/" + breed + "fall.png");
             }
         }
         else {
             horseComponent.fall();
             String breed = horseComponent.getBreed();
-            horseComponent.setImage("images/" + breed + "fall.png");
+            horseComponent.setImage("Part2/images/" + breed + "fall.png");
             horseComponent.lose();
             horseComponent.racing = false;
         }
@@ -171,7 +171,7 @@ public class Track extends JPanel {
         if (horseX >= finishLineX) {
             raceEnded = true;
 
-            JLabel goldMedal = new JLabel(new ImageIcon("images/first.png"));
+            JLabel goldMedal = new JLabel(new ImageIcon("Part2/images/first.png"));
             goldMedal.setSize(new Dimension(100, 100));
             add(goldMedal, BorderLayout.EAST);
 

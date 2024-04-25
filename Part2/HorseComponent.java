@@ -22,7 +22,7 @@ public class HorseComponent extends JComponent {
         this.trackLength = trackLength;
         breed = "horse"; // Default breed is "Horse
 
-        File file = new File("images/" + breed + ".png"); // Replace "horse_image.png" with the path to your image file
+        File file = new File("Part2/images/" + breed + ".png"); // Replace "horse_image.png" with the path to your image file
         try {
             horseImage = ImageIO.read(file);
         } catch (IOException e) {
@@ -69,7 +69,7 @@ public class HorseComponent extends JComponent {
     }
     public void stand(){
         horse.hasFallen = false;
-        File file = new File("images/" + breed + ".png");
+        File file = new File("Part2/images/" + breed + ".png");
         try {
             horseImage = ImageIO.read(file);
         } catch (IOException e) {

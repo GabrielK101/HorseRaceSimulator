@@ -144,7 +144,7 @@ public class RaceGUI {
             });
 
 
-            JButton settingsButton = new JButton(new ImageIcon("images/settings.png"));
+            JButton settingsButton = new JButton(new ImageIcon("Part2/images/settings.png"));
             settingsButton.setPreferredSize(new Dimension(100, 100));
             settingsButton.addActionListener(new ActionListener() {
                 @Override

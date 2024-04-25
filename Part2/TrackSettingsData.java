@@ -33,7 +33,7 @@ public class TrackSettingsData {
     public void setTrackColor(int id, Color trackColor, String breed, String name) {
         this.trackColor = trackColor;
         this.id = id;
-        this.horsePath = "images/" + breed + ".png";
+        this.horsePath = "Part2/images/" + breed + ".png";
         this.breed = breed;
         this.name = name;
     }
