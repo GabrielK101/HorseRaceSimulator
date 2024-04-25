@@ -27,9 +27,9 @@ public class Race
     {
         // initialise instance variables
         raceLength = distance;
-        lane1Horse = null;
-        lane2Horse = null;
-        lane3Horse = null;
+        lane1Horse = new Horse('1', "Horse 1", 0.5);
+        lane2Horse = new Horse('2', "Horse 2", 0.4);
+        lane3Horse = new Horse('3', "Horse 3", 0.3);
     }
     
     /**
