@@ -144,6 +144,9 @@ public class Race
             {
                 theHorse.fall();
                 double newConfidence = rountOneDecimal(theHorse.getConfidence() - 0.1);
+                if(newConfidence <= 0.0){
+                    newConfidence = 0.1;
+                }
                 theHorse.setConfidence(newConfidence);
             }
         }
