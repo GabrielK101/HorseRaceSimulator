@@ -143,7 +143,7 @@ public class Race
             if (Math.random() < (0.1*theHorse.getConfidence()*theHorse.getConfidence()))
             {
                 theHorse.fall();
-                double newConfidence = theHorse.getConfidence() - 0.1;
+                double newConfidence = rountOneDecimal(theHorse.getConfidence() - 0.1);
                 theHorse.setConfidence(newConfidence);
             }
         }
@@ -242,6 +242,11 @@ public class Race
             System.out.print(aChar);
             i = i + 1;
         }
+    }
+
+    private double rountOneDecimal(double number)
+    {
+        return Math.round(number * 10.0) / 10.0;
     }
 }
 
