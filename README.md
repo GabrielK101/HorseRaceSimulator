@@ -14,32 +14,32 @@ The Horse Race Simulator contains a command-line application that simulates a ho
 
 1. **Download Project Files**: Download the entire project repository from the provided link.
    
-2. **Compile RaceStarter.java**: Navigate to the directory containing the project files. Use a Java compiler to compile the `RaceStarter.java` file. You can do this by running the following command in your terminal or command prompt:
+2. **Compile startRace.java**: Navigate to the directory containing the project files. Use a Java compiler to compile the `startRace.java` file. You can do this by running the following command in your terminal or command prompt:
 
     ```
-    javac RaceStarter.java
+    javac startRace.java
     ```
 
 3. **Run Command-Line Simulation**: After successful compilation, execute the compiled Java file to start the command-line simulation. Run the following command:
 
     ```
-    java RaceStarter
+    java startRace
     ```
 
     Follow the on-screen prompts to interact with the command-line simulation.
 
 ### Part 2: GUI Simulation
 
-1. **Compile RaceGUI.java**: Similar to Part 1, navigate to the directory containing the project files. Compile the `RaceGUI.java` file using a Java compiler:
+1. **Compile RaceGUI.java**: Similar to Part 1, navigate to the directory containing the project files. Compile the `startRaceGUI.java` file using a Java compiler:
 
     ```
-    javac RaceGUI.java
+    javac startRaceGUI.java
     ```
 
 2. **Run GUI Simulation**: Once compiled, execute the compiled Java file to launch the GUI simulation:
 
     ```
-    java RaceGUI
+    java startRaceGUI
     ```
 
     This will open the graphical user interface for the simulation.
@@ -61,12 +61,12 @@ The Horse Race Simulator contains a command-line application that simulates a ho
 
 ### Command-Line Simulation (Part 1)
 
-1. **Starting the Simulation**: After compiling `RaceStarter.java`, run the command `java RaceStarter` in your terminal or command prompt.
+1. **Starting the Simulation**: After compiling `startRace.java`, run the command `java startRace` in your terminal or command prompt.
 
 3. **Viewing the Simulation**: Once the race is started, observe the command-line output to track the progress of each horse. After each race there will be a prompt to start a new race.
 ### GUI Simulation (Part 2)
 
-1. **Launching the GUI**: Compile `RaceGUI.java` and then run `java RaceGUI`. This will open the graphical user interface for the simulation.
+1. **Launching the GUI**: Compile `startRaceGUI.java` and then run `java startRaceGUI`. This will open the graphical user interface for the simulation.
 
 2. **Customizing the Race**: Use the options provided in the GUI to configure the race settings, such as the number of horses and track length.
 
