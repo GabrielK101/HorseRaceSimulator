@@ -39,7 +39,7 @@ public class TrackSettingsPanel extends JPanel {
                 data.setTrackColor(track.trackid, track.getBackground(), breed, newhorseName);
 
                 // Send the data back to RaceGUI
-                RaceGUI.receiveTrackSettings(data);
+                startRaceGUI.receiveTrackSettings(data);
 
                 // Dispose the frame
                 JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(TrackSettingsPanel.this);

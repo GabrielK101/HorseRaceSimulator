@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-public class RaceGUI {
+public class startRaceGUI {
     private static int numLanes = 3;
     private static int trackLength = 500;
     private static JPanel trackPanel;
