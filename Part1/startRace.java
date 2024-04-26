@@ -2,7 +2,7 @@ package Part1;
 
 import java.util.Scanner;
 
-public class RaceStarter {
+public class startRace {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String answer = "y";
